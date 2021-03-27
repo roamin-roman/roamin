@@ -2,123 +2,130 @@ $color-primary: rgb(201, 195, 240);
 $color-secondary: rgb(11, 155, 228);
 $color-blue-transparent: rgba(11, 10, 46, 0.6);
 
-$body-font: 'courier new', sans-serif;
-$header-font: 'bilbo', cursive;
+$body-font: "courier new", sans-serif;
+$header-font: "bilbo", cursive;
 
 body {
-    font-family: $body-font;
-    background: black;
-    color: $color-primary;
+	font-family: $body-font;
+	background: black;
+	color: $color-primary;
 }
 
 h1 {
-    font-family: $header-font;
-    font-size: 80px;
-    text-align: center;
-    text-shadow: 3px 2px $color-secondary;
+	font-family: $header-font;
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 3px 2px $color-secondary;
 }
 
 h2 {
-    font-family: $header-font;
-    font-size: 50px;
-    color: $color-primary;
-    text-shadow: 2px 2px $color-secondary;
+	font-family: $header-font;
+	font-size: 50px;
+	color: $color-primary;
+	text-shadow: 2px 2px $color-secondary;
 }
 
 .site-footer {
-    background-image: linear-gradient(rgb(13, 12, 29), rgb(45, 33, 131));
-    padding: 20px 0;
+	background-image: linear-gradient(rgb(13, 12, 29), rgb(45, 33, 131));
+	padding: 20px 0;
 }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(rgb(45, 33, 131), rgb(13, 12, 29), rgb(45, 33, 131));
-    color: white;
-    text-align: center;
+	margin: 0;
+	padding: 30px;
+	background-image: linear-gradient(
+		rgb(45, 33, 131),
+		rgb(13, 12, 29),
+		rgb(45, 33, 131)
+	);
+	color: white;
+	text-align: center;
 }
 
 .row-content {
-    padding: 50px 0;
-    min-height: 200px;
+	padding: 50px 0;
+	min-height: 200px;
 }
 
 .navbar {
-    background-image: linear-gradient(rgba(45, 33, 131, 0.9), rgba(13, 12, 29, 0.9));
-    font-family: $header-font, cursive;
-    font-size: 20px;
+	background-image: linear-gradient(
+		rgba(45, 33, 131, 0.9),
+		rgba(13, 12, 29, 0.9)
+	);
+	font-family: $header-font, cursive;
+	font-size: 20px;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
-a, a:hover {
-    color: inherit;
-    text-decoration: none;
-  }
+a,
+a:hover {
+	color: inherit;
+	text-decoration: none;
+}
 
 .carousel {
-    border: inset $color-primary;
+	border: inset $color-primary;
 }
 
 .carousel-caption {
-    background-color: $color-blue-transparent;
+	background-color: $color-blue-transparent;
 }
 
-
 #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
 }
 
 .img-thumbnail {
-    display: block;
-    max-width: 100%;
-    max-height:150px;
-  }
+	display: block;
+	max-width: 100%;
+	max-height: 150px;
+}
 
 .card {
-    border: inset $color-primary;
+	border: inset $color-primary;
 }
 
 .card-caption {
-    background-color: $color-blue-transparent;
+	background-color: $color-blue-transparent;
 }
 
 #copyright {
-    font-family: $header-font, cursive;
-    font-size: 30px;
+	font-family: $header-font, cursive;
+	font-size: 30px;
 }
 
 .card-body {
-    background-color: $color-blue-transparent;
+	background-color: $color-blue-transparent;
 }
 
 #subscribeModal {
-    .modal-header{
-        background: $color-secondary;
-        color: white;
-        font-family: $header-font;
-        font-size: 40px;
-    }
-    .modal-body{
-        background: $color-blue-transparent;
-        color: white;
-    }
+	.modal-header {
+		background: $color-secondary;
+		color: white;
+		font-family: $header-font;
+		font-size: 40px;
+	}
+	.modal-body {
+		background: $color-blue-transparent;
+		color: white;
+	}
 }
 
 #loginModal {
-    .modal-header{
-        background: $color-secondary;
-        color: white;
-        font-family: $header-font;
-        font-size: 40px;
-    }
-    .modal-body{
-        background: $color-blue-transparent;
-        color: white;
-    }
+	.modal-header {
+		background: $color-secondary;
+		color: white;
+		font-family: $header-font;
+		font-size: 40px;
+	}
+	.modal-body {
+		background: $color-blue-transparent;
+		color: white;
+	}
 }
